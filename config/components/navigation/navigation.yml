@@ -1,0 +1,14 @@
+componentName: Navigation
+
+withShout: false;
+scrollThreshold: 0
+logoPosition: left # top, left, right, bottom
+
+
+classLists:
+  wrapper: fixed z-30 top-0 left-0  flex md:flex-col xl:flex-row justify-between w-full items-center px-3 lg:p-5 bg-white transition-all duration-100 bg-white
+  scrolledWrapper: border-b-2 border-l-2 border-r-2 border-primary
+  logoContainer: logo-container pt-[10px] md:mb-4
+  logo: max-w-[200px]
+  hamburgerContainer: hamburger-container relative z-10 order-9 md:hidden 
+  hamburgerColor: # primary, secondary, tertiary, white, light, dark

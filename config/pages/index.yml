@@ -1,0 +1,37 @@
+pageName: Home
+hidden: true
+url: '/'
+isPrimaryCallToAction: false
+pageHero: null
+seoPageTitle: Home
+dataFetchingMethod: getStaticProps
+
+stories: true
+shout: true
+poweredImages: false
+menuInventory: true
+menuPL: 1
+about: true
+
+components:
+  - storyIdOrTag: 1
+    type: hero
+    wrapperClass: null
+    path: heros/Hero
+  - storyIdOrTag: 2
+    path: story-components/SideBySide
+    type: sideBySide
+    wrapperClass: py-12
+    config:
+      customTitle: null
+      customSubtitle: null
+      customBody: null
+      customCTALabel: null
+      customCTAURL: null
+
+      reversed: false
+      negativeMargin: false
+
+      sizingLeft: md:w-1/2
+      sizingRight: md:w-1/2
+      verticalAlignment: center

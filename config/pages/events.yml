@@ -1,0 +1,23 @@
+pageName: Our
+hidden: false
+isPrimaryCallToAction: false
+pageHero: events-pagehero
+seoPageTitle: Events
+renderType: getStaticProps
+
+# Data Toggles
+stories: false
+shout: true
+poweredImages: true
+menuInventory: false
+about: true
+storyType: general
+
+components:
+  - storyIdOrTag: 1
+    component: PageHero # pagehero, hero, slider
+  - storyIdOrTag: 2
+    component: SideByside
+    reversed: true
+  - storyIdOrTag: 3
+    component: LargeContentContainer

@@ -1,0 +1,26 @@
+pageName: Our
+hidden: false
+isPrimaryCallToAction: false
+pageHero: about-pagehero
+seoPageTitle: About
+renderType: getStaticProps
+
+# Data Toggles
+stories: false
+shout: true
+poweredImages: true
+menuInventory: false
+about: true
+storyType: general
+
+components:
+  - storyIdOrTag: 1
+    component: PageHero # pagehero, hero, slider
+    poweredImage: about-pagehero
+    # We can leave this blank.
+    pageTitle: About Us
+  - storyIdOrTag: 2
+    component: SideByside
+    reversed: true
+  - storyIdOrTag: 3
+    component: LargeContentContainer

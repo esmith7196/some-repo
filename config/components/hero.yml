@@ -1,0 +1,39 @@
+componentName: Hero
+
+withShout: false
+showLogo: false
+hideTitle: false
+customCarouselRenderIndicator: null # Ex: /lemon.svg 
+opacityStrength: 10 # 0, 10, 20, ..., 90, 100
+
+videoConfig: 
+  video: null
+  videoControls: false
+  loop: true
+  autoPlay: true
+  muted: true
+  customSourcePath: null # If you have a custom URL, paste it here
+
+carouselConfig: 
+  interval: 6000
+  transitionTime: 3000
+  animationHandler: fade
+  autoPlay: true
+  infiniteLoop: true
+  showThumbs: false
+  showStatus: false
+  showArrows: false
+  swipeable: false
+  showIndicators: false
+
+classLists:
+  wrapper: absolute top-0 bottom-0 w-full h-full flex z-0 justify-center items-center text-white text-3xl md:text-6xl lg:text-8xl uppercase text-center
+  logoContainer: h-full flex justify-center items-center
+  logoWrapper: w-fit m-auto p-4 bg-opacity-40 bg-white
+  title: font-body uppercase
+  logo: max-w-[200px]
+  carousel: h-screen md:h-[900px] lg:h-[800px] xl:h-[850px]
+  video: w-full object-cover z-20 relative
+  storyContentOverlay: top-24 md:top-0 bottom-0 w-full flex flex-col md:flex-row z-20  md:justify-center pr-12 justify-end p-4 bg-dark
+  shoutCardWrapper: lg:absolute lg:left-2 lg:bottom-2 z-20
+  logoAndStoryWrapper: left-0 top-0 w-full h-full flex -z-10 justify-center items-center md:pt-24 lg:pt-0 lg:items-center lg:justify-center

@@ -1,0 +1,2 @@
+# Other styling configurations 🧑‍🎨
+galleryTemplateColumns: repeate(16, minmax(0, 1fr))

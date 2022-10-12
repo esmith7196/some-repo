@@ -1,0 +1,14 @@
+sans: 
+  - Roboto
+  - system-ui
+  - serif
+sansSerif: 
+  - Playfair
+  - serif
+display: 
+  - Playfair
+  - serif
+body: 
+  - Roboto
+  - system-ui
+  - serif

@@ -1,0 +1,22 @@
+# Site Confguration 🛠️
+businessId: bzn-Lpb69C2WRJaKUIXpN5PJ4g
+domain: https://www.gonation.com/
+iframe: googleMapEmbedURL
+logoPath: /logo.png
+poweredByPath: /gn-power-black.svg
+favicon: /favicon.ico
+filteredOutGalleryImages:
+  - Website Photos
+
+navigation:
+  type: navigation
+  style: someStyle
+  items:
+    - name: Home
+      isPrimaryCalledToAction: false
+      hidden: true
+      url:
+    - name: About
+      isPrimaryCalledToAction: false
+      hidden: false
+      url:

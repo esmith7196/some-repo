@@ -1,0 +1,22 @@
+componentName: SideBySide 
+
+negativeMarginValue: lg:mt-[-200px]
+
+classLists:
+  container: flex flex-col md:flex-row  px-6 md:items-center py-12 md:py-30 lg:py-12 relative
+  storyContentWrapper: subtle-shadow-sm px-5 font-display bg-transparent py-6 md:order-1 lg:mr-2 lg:mr-4 lg:ml-2
+  storyTextGlobal: leading-loose text-lg text-center
+  storyTitle: text-5xl md:text-6xl xl:text-7xl mt-4 uppercase w-fit px-8 lg:px-20 
+  storySubtitle: text-2xl md:text-3xl xl:text-7xl mt-4 normal-case
+  storyBody: text-dark font-body max-w-sm m-auto text-left
+  storyImageWrapper: pb-2 md:pb-3	 xl:pb-0 md:pr-2
+  storyImage: object-cover w-full h-full subtle-shadow rounded-sm
+  storyCTAWrapper: mt-12 text-center
+  storyCTA: py-8
+  storyCTAStyle: primary-filled
+
+  
+  
+  
+  
+
